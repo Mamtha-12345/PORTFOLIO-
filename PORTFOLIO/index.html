@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamtha.G - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Mamtha.G</h1>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Innovative ECE Graduate Crafting Digital Solutions</h1>
+            <p class="hero-subtitle">Welcome to my world of code, creativity, and innovation.</p>
+            <a href="#about" class="cta-button">Explore My Journey</a>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Mamtha.G, a passionate B.E in Electronics and Communication Engineering graduate with a CGPA of 8.5 and distinction. My journey in technology has been driven by curiosity and a desire to create impactful solutions.</p>
+                    <p>As an aspiring software engineer, I'm passionate about web development and data analytics. I aim to build innovative applications that solve real-world problems, leveraging my skills in programming and design to create user-centric experiences.</p>
+                </div>
+                <div class="about-image">
+                    <div class="profile-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Proficient in creating semantic and accessible web structures.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-skill="90"></div></div>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Expert in styling and creating responsive, visually appealing designs.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-skill="85"></div></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Java</h3>
+                    <p>Strong foundation in object-oriented programming and application development.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-skill="80"></div></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Versatile in scripting, data manipulation, and backend development.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-skill="75"></div></div>
+                </div>
+                <div class="skill-card">
+                    <h3>PowerBI Desktop</h3>
+                    <p>Skilled in data analytics, visualization, and creating insightful dashboards.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-skill="70"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Employment System</h3>
+                    <p>A comprehensive job portal built with Java and MySQL. Features include user registration, job posting, application tracking, and admin dashboard.</p>
+                    <span class="tech-stack">Java, MySQL, HTML, CSS</span>
+                </div>
+                <div class="project-card">
+                    <h3>My Portfolio</h3>
+                    <p>This very portfolio! A responsive website showcasing my skills and projects, built with modern web technologies and creative animations.</p>
+                    <span class="tech-stack">HTML, CSS, JavaScript</span>
+                </div>
+                <div class="project-card">
+                    <h3>Bus Online Ticket Booking</h3>
+                    <p>An online booking system for bus tickets with real-time seat selection, payment integration, and booking management.</p>
+                    <span class="tech-stack">Python, Flask, SQLite, HTML, CSS</span>
+                </div>
+                <div class="project-card">
+                    <h3>AI Chat</h3>
+                    <p>An intelligent chatbot application using natural language processing for conversational interactions and automated responses.</p>
+                    <span class="tech-stack">Python, TensorFlow, JavaScript</span>
+                </div>
+                <div class="project-card">
+                    <h3>Library Management System</h3>
+                    <p>A digital library system for book cataloging, borrowing, returning, and user management with search and reporting features.</p>
+                    <span class="tech-stack">Java, MySQL, Swing</span>
+                </div>
+                <div class="project-card">
+                    <h3>Attendance Management System</h3>
+                    <p>An automated attendance tracking system using RFID technology for efficient student/employee monitoring and reporting.</p>
+                    <span class="tech-stack">Python, RFID, SQLite</span>
+                </div>
+                <div class="project-card">
+                    <h3>Smart Door Lock System</h3>
+                    <p>An IoT-based security system with biometric authentication, remote access, and real-time notifications.</p>
+                    <span class="tech-stack">Arduino, Python, Raspberry Pi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Let's connect! I'm always open to discussing new opportunities and collaborations.</p>
+                    <p>Email: <a href="mailto:mamthag1206@gmail.com">mamthag1206@gmail.com</a></p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mamtha.G. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
